@@ -41,7 +41,7 @@ a {
   
 .footer-contents li{
   padding-bottom: 20px;
-  font-family: Century Gothic;
+  font-family:century;
   font-size: 15px;
   list-style-type: none;
 }
@@ -229,6 +229,7 @@ padding: 30px 0px 100px 0px;
   .testimonial {
     background: #fff;
     padding: 30px;
+    font-family: century;
   }
   
   .testimonial img {
