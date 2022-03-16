@@ -72,4 +72,52 @@ a {
   .footer-list li{
     float: none;
   }
+.container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+.leson {
+  float: left;
+  width: 20%;
+}
+.lesson-icon {
+  position: relative;
+}
+.lesson-icon p {
+  position: absolute;
+  top: 170px;
+  width: 60%;
+  color: #aa96da;
+  font-family: century;
+  font-weight: bold;
+  background-color: #c5fad5;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+.lesson-icon img {
+  height: 200px;
+  width: 200px;
 }
