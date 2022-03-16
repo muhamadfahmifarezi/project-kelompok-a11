@@ -5,3 +5,71 @@ body {
 a {
   text-decoration: none;
 }
+
+.footer-wrapper{
+    background-color: #aa96da;
+    color: #ffffd2;
+    height: 120px;
+    padding: 40px;
+}
+
+@keyframes animation-logo{
+    from{background-color: #aa96da; color: #ffffd2;}
+    to{background-color: #ffffd2; color: #aa96da;}
+}
+.footer-logo {
+    float: right;
+    font-size: 36px;
+    font-family: Bebas Neue;
+    padding: 0px 10px;
+    animation-name: animation-logo;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+
+  .footer-logo:hover{
+    float: right;
+    font-size: 36px;
+    font-family: Bebas Neue;
+    background-color: #aa96da;
+    color: #ffffd2;
+    padding: 0px 10px;
+    transition: all 0.5s;
+    animation-play-state: paused;
+  }
+  
+.footer-contents li{
+  padding-bottom: 20px;
+  font-family: Century Gothic;
+  font-size: 15px;
+  list-style-type: none;
+}
+
+.footer-list li {
+  float:left;
+}
+
+.contents-info li{
+	float: none;
+}
+
+.mail, .twitter, .instagram{
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+}
+
+.contacts li{
+ 	float:none;
+} 
+
+@media(max-width:670px) {
+  .footer-wrapper, .footer-list, .footer-logo{
+    width: 100%;
+  }
+
+  .footer-list li{
+    float: none;
+  }
+}
