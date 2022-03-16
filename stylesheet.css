@@ -73,7 +73,7 @@ a {
     float: none;
   }
 .container {
-  width: 1170px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -120,4 +120,7 @@ a {
 .lesson-icon img {
   height: 200px;
   width: 200px;
+}
+* {
+  box-sizing: border-box;
 }
