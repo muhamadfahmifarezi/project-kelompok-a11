@@ -94,7 +94,8 @@ a {
 }
 .leson {
   float: left;
-  width: 20%;
+  width: 18%;
+  margin-right: 15px;
 }
 .lesson-icon {
   position: relative;
@@ -316,4 +317,74 @@ p{
   animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
+}
+
+/* Slider untuk Main*/
+/* Edited with Canva */
+/* Sumber Foto: Unsplash(dot)com */
+
+@keyframes slidy {
+  0% {
+    left: 0%;
+  }
+
+  20% {
+    left: 0%;
+  }
+
+  25% {
+    left: -100%;
+  }
+
+  45% {
+    left: -100%;
+  }
+
+  50% {
+    left: -200%;
+  }
+
+  70% {
+    left: -200%;
+  }
+
+  75% {
+    left: -300%;
+  }
+
+  95% {
+    left: -300%;
+  }
+
+  100% {
+    left: -400%;
+  }
+}
+
+figure {
+  margin: 0;
+}
+
+div#gallery {
+  width: 100%;
+  overflow: hidden;
+}
+
+figure.slider {
+  position: relative;
+  width: 500%;
+  font-size: 0;
+  animation: 20s slidy infinite;
+}
+
+figure.slider figure {
+  width: 20%;
+  height: auto;
+  display: inline-block;
+  position: inherit;
+}
+
+figure.slider img {
+  width: 100%;
+  height: auto;
 }
